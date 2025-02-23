@@ -20,7 +20,7 @@ def is_enabled(value, default):
 # Bot Information
 API_ID = int(environ.get("API_ID", "25624824"))
 API_HASH = environ.get("API_HASH", "3b705ab47b4018cb26c87b482a32a70a")
-BOT_TOKEN = environ.get("BOT_TOKEN", "")
+BOT_TOKEN = environ.get("BOT_TOKEN", "8049107337:AAFu2-SeD9spQqliP-FsxhYfydwyYwNn-Yw")
 
 PICS = (environ.get('PICS', 'https://graph.org/file/ce1723991756e48c35aa1.jpg')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5707498585').split()]
@@ -31,11 +31,11 @@ PORT = environ.get("PORT", "8080")
 CLONE_MODE = bool(environ.get('CLONE_MODE', True)) # Set True or False
 
 # If Clone Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
-CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb+srv://vlj8stn21i:tdzsnzexwrASFcQY@cluster0.tt1b0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb+srv://ulkn32ywq9:1BYy6fjFZtjPBa88@cluster0.qimhg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 CDB_NAME = environ.get("CDB_NAME", "cluster0")
 
 # Database Information
-DB_URI = environ.get("DB_URI", "mongodb+srv://f4qxqj6l0r:BjKZaS6g0JPbrq1a@cluster0.tggy3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_URI = environ.get("DB_URI", "mongodb+srv://fw6k918dg7:QVVzCfhh8DoXPhUW@cluster0.1zjjg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = environ.get("DB_NAME", "cluster0")
 
 # Auto Delete Information
